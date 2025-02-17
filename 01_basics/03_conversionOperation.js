@@ -50,11 +50,11 @@ let str2 = "Vinu"
 let str3 = str1 + str2
 console.log(str3);
 
-console.log("1" + 2)
-console.log(1 + "2")
-console.log("1" + 2 + 2)
-console.log(3 + 2 + "3")
-// console.log("1" + 2)
+console.log("1" + 2);
+console.log(1 + "2");
+console.log("1" + 2 + 2);
+console.log(3 + 2 + "3");
+
 
 console.log(3 + 4 * 5 % 3);  
 // Bracket
@@ -64,8 +64,26 @@ console.log(3 + 4 * 5 % 3);
 // Addition
 // Subtraction
 
+// console.log(+true);
+// console.log(+"");
 
 
+let x = 3;
+const y = x++;
+console.log(`x:${x}, y:${y}`);
+//expected output: "x:4, y:3"
+
+let a = 3;
+const b = ++a;
+console.log(`a:${a}, b:${b}`);
+//expected output: "a:4, b:4"
 
 
+let gameCounter = 100;
+++gameCounter;
+gameCounter++;
+console.log(gameCounter);
+
+console.log("2" > 1);
+console.log("02" > 1);
 
